@@ -1,12 +1,5 @@
-import {
-    Outlet,
-    Link,
-    useLoaderData,
-    Form,
-    redirect,
-    useNavigation,
-  } from "react-router-dom";
-  import { getContacts, createContact } from "../contacts";
+import {Outlet, Link, useLoaderData, Form, redirect, useNavigation,} from "react-router-dom";
+import { getContacts, createContact } from "../contacts";
 
 
 export async function action() {
